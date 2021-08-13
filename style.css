@@ -85,3 +85,8 @@ img {
     background-position: -150% 0;
   }
 }
+@media screen and (max-width: 380px) {
+  .card {
+    width: 280px;
+  }
+}
