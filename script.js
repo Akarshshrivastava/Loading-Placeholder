@@ -11,8 +11,8 @@ const animated_bg_texts = document.querySelectorAll(".animated-bg-text");
 setTimeout(getData, 2500);
 
 function getData() {
-  header.innerHTML = `<img src="https://source.unsplash.com/random" alt="" />`;
-  title.innerHTML = `Lorem ipsun dolor`;
+  header.innerHTML = `<img src="https://source.unsplash.com/random/?portrait" alt="" />`;
+  title.innerHTML = `Expore this world`;
   excerpt.innerHTML = `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, quod.`;
   profile_img.innerHTML = `<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />`;
   name.innerHTML = "John Doe";
